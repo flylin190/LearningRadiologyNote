@@ -1,0 +1,156 @@
+* { 
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(70, 70, 70);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    width: 1200px;
+    margin:0 auto;
+    padding: 0 ;    
+}
+
+h1 {
+    text-align: center; 
+    padding: 50px 0px;
+    /* padding-bottom: 50px; */
+    font-size: 26px; 
+    background-color: rgb(224, 243, 255);
+}
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding-top: 3vh;
+    height: 660px;
+}
+
+.content h2{
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.content p {
+    margin-left: 25px;
+    width: 470px;
+}
+
+.image li{
+    width: 470px;
+    margin-left: 35px;
+}
+
+img {
+    width: 450px;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+h3{
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0f637c; 
+    padding: 30px;
+}
+
+footer a{
+    color: white;
+
+}
+
+/* 響應式設計 */
+
+@media screen and (max-width:1200px) {
+    body {
+        width: 1000px;
+    }
+    .content p {
+        margin-left: 25px;
+        width: 420px;
+    }
+    .image li{
+        width: 420px;
+        margin-left: 35px;
+    }
+
+    img {
+        width: 420px;
+    }
+
+}
+
+
+
+@media screen and (max-width:800px) {
+    body {
+        width: 700px;
+
+    }
+    section{
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 1000px;
+        padding:0;
+    }
+    .content h2{
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    .content p {
+        margin-left:10%;
+        width: 595px;
+
+
+    }
+   
+    .image li{
+        width: 595px;
+        margin-left: 15%;
+
+    }
+    .image h3 {
+        margin-left:5%;
+        font-size: 20px;
+
+    }
+
+    .image img{
+        margin-left:10%;
+        margin-top: 5%;
+
+    }
+
+
+}
+
+@media screen and (max-width:700px) {
+    body {
+            width: 100%;
+
+    }
+    .content p{
+        width:85%;
+    }
+
+    .image li{
+        width: 85%;
+    }
+
+
+
+
+}
