@@ -92,7 +92,7 @@ footer a{
 
     section {
 
-        height: 60vh;
+        min-height: 60vh;
         
     }
     li {
@@ -107,8 +107,9 @@ footer a{
     }
 
     section {
+    
 
-        height: 60vh;
+    
         
     }
     li {
@@ -130,7 +131,7 @@ footer a{
     
     section {
     
-            height: 60vh;
+        
     
     }
     li a{
