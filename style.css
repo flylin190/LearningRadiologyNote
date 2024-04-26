@@ -22,8 +22,15 @@ h1 {
 
 section {
     background-color: #ffffff;
-    padding-top: 7vh;
-    height: 66vh;
+    /* padding-top: 7vh; */
+    height: 73vh;
+    
+}
+section h4 {
+    padding-left: 3vw;
+    background-color: antiquewhite;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     
 }
 
@@ -31,12 +38,13 @@ ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none; 
-    padding: 0; 
+    padding-top: 2vh; 
+
 }
 
 li {
     width: 25%;
-
+    margin-top: 20px;
     margin-bottom: 20px; 
     text-align: center;
     font-size: 20px;
