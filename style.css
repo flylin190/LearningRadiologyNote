@@ -7,52 +7,54 @@ body {
     background-color: rgb(70, 70, 70);
     font-family: 'Microsoft JhengHei', sans-serif;
     width: 1200px;
-    margin:0 auto;  
-
-
+    margin:0 auto;
+    padding: 0 ;    
 }
 h1 {
     text-align: center; 
     margin: 0;
-    padding: 6vh;
+    padding:6vh;
     font-size: 26px; 
     background-color: rgb(224, 243, 255);
 
+
 }
 
-section {
-    background-color: #ffffff;
-    /* padding-top: 7vh; */
-    height: 73vh;
-    
-}
 section h4 {
     padding-left: 3vw;
     background-color: antiquewhite;
     padding-top: 2vh;
     padding-bottom: 2vh;
     
+
+}
+section {
+    background-color: #ffffff;
+    /* padding-top: 7vh; */
+    min-height: 73vh;
 }
 
 ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none; 
-    padding-top: 2vh; 
+    padding: 1vh;
+    /* padding-bottom: 80px;  */
 
 }
 
 li {
     width: 25%;
-    margin-top: 20px;
-    margin-bottom: 20px; 
+    /* height: 9vh; */
+    margin-top: 25px;
+    margin-bottom: 25px; 
     text-align: center;
     font-size: 20px;
-    color:black;
-}
 
+}
 li a{
-    color: rgb(0, 0, 0);
+    color: rgb(83, 83, 83);
+
 }
 
 body a{
@@ -61,12 +63,17 @@ body a{
 
 footer {
     background-color: #0f637c;
-    color: #ffffff;
-    text-align: center;
-    padding: 4vh;     
+    display: flex;
+    justify-content: center;
+    padding: 4vh;
+    color: white;
+    
 }
 
-/* 響應式語法 */
+
+
+
+
 
 @media screen and (max-width:1200px) {
     body {
@@ -84,7 +91,7 @@ footer {
 
     section {
 
-        height: 60vh;
+        min-height: 60vh;
         
     }
     li {
@@ -94,13 +101,14 @@ footer {
 
 @media screen and (max-width:700px) {
     body {
-        width: 100%;
+        width: 600px;
         margin:0 auto;
     }
 
     section {
+    
 
-        height: 60vh;
+    
         
     }
     li {
@@ -109,20 +117,23 @@ footer {
 
 }
 
+/* 響應式設計 */
+
 @media screen and (max-width:600px) {
     body {
             width: 100%;
-
+            margin:0 auto;
     }
     li {
             width: 33%;
     }
     
+    section {
     
+        
     
     }
     li a{
             font-size:17px;
     }
 }
-
