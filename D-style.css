@@ -26,7 +26,7 @@ section {
     justify-content: space-evenly;
     background-color: #ffffff;
     padding-top: 3vh;
-    height: 660px;
+    min-height: 73vh;
 }
 
 .content h2{
@@ -101,10 +101,11 @@ footer a{
 
     }
     section{
-        flex-direction: column;
-        justify-content: flex-start;
-        height: 1000px;
-        padding:0;
+        /* flex-direction: column;
+        justify-content: flex-start; */
+        display: block;
+        background-color: #ffffff;
+        padding-bottom:5vh;
     }
     .content h2{
         margin-left: 5%;
@@ -133,7 +134,7 @@ footer a{
         margin-top: 5%;
 
     }
-
+    
 
 }
 

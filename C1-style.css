@@ -107,9 +107,8 @@ footer a{
         word-wrap: break-word;   
         
     }
-    li a {
-         
-        
+    li a{
+        font-size:17px;
     }
 }
 
