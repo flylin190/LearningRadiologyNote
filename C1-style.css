@@ -97,6 +97,7 @@ footer a{
     }
     li {
         width: 33%;
+        word-wrap: break-word;
     }
 }
 
@@ -106,14 +107,9 @@ footer a{
         margin:0 auto;
     }
 
-    section {
-    
-
-    
-        
-    }
     li {
         width: 33%;
+        
     }
 
 }
@@ -127,6 +123,7 @@ footer a{
     }
     li {
             width: 33%;
+
     }
     
     section {
