@@ -9,6 +9,7 @@ body {
     width: 1200px;
     margin:0 auto;
     padding: 0 ;    
+    
 }
 h1 {
     text-align: center; 
@@ -32,6 +33,7 @@ section {
     background-color: #ffffff;
     /* padding-top: 7vh; */
     min-height: 73vh;
+    
 }
 
 ul {
@@ -50,11 +52,12 @@ li {
     margin-bottom: 25px; 
     text-align: center;
     font-size: 20px;
+    
 
 }
 li a{
     color: rgb(83, 83, 83);
-
+    wor
 }
 
 body a{
@@ -94,10 +97,19 @@ footer a{
 
         min-height: 60vh;
         
+        
+    }
+    ul{
+        
     }
     li {
         width: 33%;
-        word-wrap: break-word;
+        word-wrap: break-word;   
+        
+    }
+    li a {
+         
+        
     }
 }
 
@@ -110,6 +122,9 @@ footer a{
     li {
         width: 33%;
         
+    }
+    li a{
+        font-size:17px;
     }
 
 }
