@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bipartite Patella</title>
+    <link rel="stylesheet" href="../../D-style.css">
+</head>
+<body>
+    <h1>Bipartite Patella</h1>
+    <section class="content">
+        <div>   
+            <h2>Symptoms:</h2>
+            <p>Bipartite patella typically presents with anterior knee pain, especially with activities that require bending of the knee. Swelling and tenderness over the bipartite fragment may also be present.</p>
+            <h2>Epidemiology:</h2>
+            <p>Bipartite patella is a relatively rare condition that is more common in males and often affects individuals between the ages of 10 and 20 years.</p>
+            <h2>Pathology:</h2>
+            <p>Bipartite patella is a congenital condition characterized by the failure of the patella to fuse during childhood, resulting in a bipartite (two-part) patella.</p>
+            <h2>Treatment:</h2>
+            <p>Treatment for bipartite patella is usually conservative and may include rest, ice, anti-inflammatory medications, and physical therapy. In some cases, surgery may be necessary to remove the bipartite fragment.</p>
+        </div> 
+        <div class="image">
+            <h3>Imaging Features:</h3>
+            <ul>
+                <li>Radiographs typically show a well-defined, corticated fragment of bone adjacent to the superolateral aspect of the patella</li>
+                <li>CT or MRI may be used to further evaluate the fragment and assess for any associated pathology</li>
+            </ul>
+        </div>
+    </section> 
+</body>
+</html>
