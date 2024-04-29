@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CT Perfusion Scan Values</title>
+    <link rel="stylesheet" href="D-style.css">
+</head>
+<body>
+    <h1>CT Perfusion Scan Values</h1>
+    <section class="content">
+        <div>   
+            <h2>Cerebral Blood Flow (CBF)</h2>
+            <p>CBF represents the amount of blood flow per unit volume of brain tissue per unit time. It is measured in ml/100g/min. Decreased CBF may indicate ischemia or reduced perfusion.</p>
+
+            <h2>Cerebral Blood Volume (CBV)</h2>
+            <p>CBV represents the total volume of blood in a region of the brain. It is measured in ml/100g. Increased CBV may indicate hyperemia or increased blood volume.</p>
+
+            <h2>Mean Transit Time (MTT)</h2>
+            <p>MTT represents the average time it takes for blood to pass through a region of the brain. It is measured in seconds (s). Prolonged MTT may indicate delayed perfusion.</p>
+
+            <h2>Time to Peak (TTP)</h2>
+            <p>TTP represents the time it takes for the contrast agent to reach its maximum concentration in a region of the brain. It is measured in seconds (s). Prolonged TTP may indicate delayed perfusion.</p>
+
+            <h2>Permeability Surface Area Product (PS)</h2>
+            <p>PS represents the permeability of blood vessels and the surface area available for exchange of substances. It is measured in ml/100g/min. Increased PS may indicate increased permeability.</p>
+
+            <h2>Relative Cerebral Blood Flow (rCBF)</h2>
+            <p>rCBF represents the CBF in a region of the brain relative to a reference region. It is a normalized value for comparison.</p>
+        </div> 
+    </section> 
+    <footer>
+        <h4><a href="index.html">Home </a></h4>
+        <h4><a href="NR.html">> NR </a></h4>
+    </footer>
+</body>
+</html>
