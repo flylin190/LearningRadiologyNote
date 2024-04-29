@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CT Perfusion Scan</title>
+    <link rel="stylesheet" href="D-style.css">
+</head>
+<body>
+    <h1>CT Perfusion Scan</h1>
+    <section class="content">
+        <div>   
+            <h2>Overview:</h2>
+            <p>A CT perfusion scan is a diagnostic imaging technique used to assess blood flow in various organs and tissues, particularly in the brain. It provides information about perfusion (blood flow) and can help diagnose conditions such as stroke, tumors, and vascular malformations.</p>
+            <h2>Procedure:</h2>
+            <p>During a CT perfusion scan, a contrast agent is injected into a vein to highlight blood vessels. The patient then undergoes a series of rapid CT scans to track the contrast agent as it flows through the blood vessels. This provides detailed images of blood flow in the area of interest.</p>
+            <h2>Indications:</h2>
+            <ul>
+                <li>Evaluate blood flow in the brain for stroke assessment</li>
+                <li>Assess tumor blood supply and vascularity</li>
+                <li>Detect vascular malformations or aneurysms</li>
+                <li>Monitor response to treatment, such as chemotherapy or radiation therapy</li>
+            </ul>
+            <h2>Interpretation:</h2>
+            <p>CT perfusion images are analyzed to determine parameters such as blood flow, blood volume, and mean transit time. Abnormalities in these parameters can indicate various conditions, such as decreased blood flow in stroke or increased blood flow in tumors.</p>
+            <h2>Advantages:</h2>
+            <ul>
+                <li>Non-invasive imaging technique</li>
+                <li>Provides detailed information about blood flow dynamics</li>
+                <li>Can help guide treatment planning</li>
+            </ul>
+            <h2>Limitations:</h2>
+            <ul>
+                <li>Exposure to radiation from CT scans</li>
+                <li>Requires the use of contrast agent, which may cause allergic reactions in some individuals</li>
+                <li>Not suitable for patients with impaired renal function</li>
+            </ul>
+        </div> 
+    </section> 
+    <footer>
+        <h4><a href="index.html">Home </a></h4>
+        <h4><a href="NR.html">> NR </a></h4>
+    </footer>
+</body>
+</html>
