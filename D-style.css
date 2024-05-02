@@ -20,6 +20,10 @@ h1 {
     background-color: rgb(224, 243, 255);
 }
 
+h3 a{
+    color: rgb(83, 83, 83);
+
+}
 
 section {
     display: flex;
